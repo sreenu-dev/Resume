@@ -1,0 +1,198 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \input{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\subheadingcolor}{\color{black}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sreenivasulu Ummadi} \\ \vspace{5pt}
+    \small \href{mailto:your.email@gmail.com}{ummadi.sreenivasulu.developer@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/sreenivasuluummadi/}{linkedin.com/in/sreenivasuluummadi/} $|$
+    \href{https://github.com/sreenu-dev}{github.com/sreenu-dev} $|$
+    \small +91-8639912976
+\end{center}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, SQL, TypeScript} \\
+     \textbf{Frameworks}{: React, Node.js, Angular, ASP.NET Web API} \\
+     \textbf{Developer Tools}{: Git, Gitlab, Kubernetes, Azure, PostgreSQL, Redis, Jira} \\
+     \textbf{Architecture \& Concepts}{: Microservices, Latency Optimization, Micro Frontend Architecture, System Design, Data Structure, Algorithms}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte}{Hyderabad}
+      {Consultant}{June 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Accomplished [X], as measured by [Y], by doing [Z] (e.g., Optimized database indexing strategies, reducing API response times by 35\% under a peak simulation load of 10k concurrent requests).}
+        \resumeItem{Refactored legacy monolithic \textbf{test} modules into modular microservices using Docker, decreasing deployment failure rates by 18\% and local spin-up latency.}
+        \resumeItem{Collaborated with cross-functional product teams to implement custom caching layers using Redis, boosting overall system data throughput by 22\%.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Accenture}{Hyderbad}
+      {Full Stack Engineering Senior Analyst}{March 2022 -- June 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented complex features aligned with detailed specifications, ensuring high performance and scalability.}
+        \resumeItem{Debugged and resolved issues across development, testing, and production environments, ensuring seamless functionality.}
+        \resumeItem{Engineered robust software solutions for new features and critical bug fixes.}
+        \resumeItem{Developed comprehensive unit test cases and documentation using tools like Jasmine and Karma.}
+        \resumeItem{Delivered high-quality, reusable, and scalable code adhering to industry best practice.}
+        \resumeItem{Led project meetings, managed the request for-comment process, and provided technical leadership.}
+        \resumeItem{Supported team initiatives, including onboarding and mentoring junior team members.}
+        \resumeItem{Mentored and guided software engineers while actively participating in hiring top talent.}
+        \resumeItem{Monitored team metrics, contributing to timely feature and fix delivery.}
+        \resumeItem{Developed more than 100+ User Stories and many major features in the applications.}
+        \resumeItem{Fixed more than 300+ defects in the application.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Accenture}{Bengaluru}
+      {Full Stack Engineering Analyst}{September 2020 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained user-facing features using HTML, CSS, SCSS, and JavaScript, ensuring responsive and visually appealing designs.}
+        \resumeItem{Built scalable front-end architectures using Angular (v8+) and TypeScript to deliver modular and maintainable applications.}
+        \resumeItem{Implemented and optimized reusable, component-based design patterns for enhanced code modularity and maintainability.}
+        \resumeItem{Applied Object-Oriented Programming (OOP) principles to deliver high-quality, robust, and scalable codebase.}
+        \resumeItem{Collaborated with back-end developers to integrate RESTful APIs and ensure seamless end-to-end functionality.}
+        \resumeItem{Optimized web applications for speed, scalability, and cross-device responsiveness.}
+        \resumeItem{Troubleshot and resolved front-end performance bottlenecks and critical bugs to enhance user experience.}
+        \resumeItem{Developed comprehensive unit test cases with Jasmine and Karma to maintain code quality and ensure zero regressions.}
+        \resumeItem{Contributed to agile development practices by participating in sprint planning, code reviews, and daily stand-ups.}
+        \resumeItem{Ensured accessibility and adherence to web standards for improved inclusivity and compliance.}
+        \resumeItem{Partnered with cross-functional teams to align technical solutions with business requirements.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+          {\textbf{Smart Recommendation Engine} $|$ \emph{Python, FastAPI, Redis, Docker}}{Month Year}
+          \resumeItemListStart
+            \resumeItem{Designed a Smart Recommendation Engine using collaborative filtering, increasing simulated user click-through rate by 14\% and optimizing API latency under peak loads.}
+            \resumeItem{Integrated an AI-driven LLM fallback layer to process unstructured support queries, yielding a 94\% accuracy rate in automated intent classification.}
+            \resumeItem{Architected system layout utilizing standalone microservices to separate computation-heavy model processing from standard data delivery paths.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Real-Time AI Support Chatbot} $|$ \emph{Node.js, React, WebSockets, OpenAI API}}{Month Year}
+          \resumeItemListStart
+            \resumeItem{Built a real-time conversational interface capable of handling concurrent multi-tenant chat rooms with a connection baseline response time of under 200ms.}
+            \resumeItem{Leveraged prompt engineering and structural contextual guardrails to prevent hallucination matrices during simulated automated customer workflows.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Your University Name}{City, State}
+      {Bachelor of Technology / Science in Computer Science and Engineering}{Graduation Year}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
+%-----------Certification-------------
+\section{Certification}
+ \resumeItemListStart
+  \resumeItem{AI-900 Azure AI Fundamentals}
+  \resumeItem{AZ-900 Azure Fundamentals}
+ \resumeItemListEnd
+%---------------------------------------
+
+%-----------Accomplishment----------------
+\section{Accomplishment}
+ \resumeItemListStart
+  \resumeItem{ACE'22 Preformer of the year Award, Accenture}
+  \resumeItem{ACE'23 Extra Mile Award for offshore Individual, Accenture}
+  \resumeItem{FY26 Applause Award, Deloitte}
+\resumeItemListEnd
+%---------------------------------------------
+\end{document}

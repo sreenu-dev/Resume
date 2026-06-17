@@ -1,0 +1,11 @@
+- Developed and maintained user-facing features using HTML, CSS, SCSS, and JavaScript, ensuring responsive and visually appealing designs
+- Built scalable front-end architectures using Angular (v8+) and TypeScript to deliver modular and maintainable applications
+- Implemented and optimized reusable, component-based design patterns for enhanced code modularity and maintainability
+- Applied Object-Oriented Programming (OOP) principles to deliver high-quality, robust, and scalable codebase
+- Collaborated with back-end developers to integrate RESTful APIs and ensure seamless end-to-end functionality
+- Optimized web applications for speed, scalability, and cross-device responsiveness
+- Troubleshot and resolved front-end performance bottlenecks and critical bugs to enhance user experience
+- Developed comprehensive unit test cases with Jasmine and Karma to maintain code quality and ensure zero regressions
+- Contributed to agile development practices by participating in sprint planning, code reviews, and daily stand-ups
+- Ensured accessibility and adherence to web standards for improved inclusivity and compliance
+- Partnered with cross-functional teams to align technical solutions with business requirements

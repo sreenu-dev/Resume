@@ -1,0 +1,9 @@
+- Designed and implemented complex features aligned with detailed specifications, ensuring high performance and scalability
+- Debugged and resolved issues across development, testing, and production environments, ensuring seamless functionality
+- Engineered robust software solutions for new features and critical bug fixes Developed comprehensive unit test cases and documentation using tools like Jasmine and Karma
+- Delivered high-quality, reusable, and scalable code adhering to industry best practices Led project meetings, managed the request for-comment process, and provided technical leadership
+- Supported team initiatives, including onboarding and mentoring junior team members
+- Mentored and guided software engineers while actively participating in hiring top talent
+- Monitored team metrics, contributing to timely feature and fix delivery
+- Developed more than 100+ User Stories and many major features in the applications
+- Fixed more than 300+ defects in the application
