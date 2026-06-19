@@ -1,0 +1,15 @@
+Can you create points based on the inputs I provide 
+
+1. Worked on creating v2 endpoints on backend which are fast and follows structured response which reduced error ratio by 70%.
+2. Worked on optimizing stored procedures and modifiying either procedure output or entity framework
+3. Worked on creating mock payloads and automating unit testing across the application
+4. Worked on moving legacy code to latest .NET Scaffolding architechture by which we can access db objects directly using entity framework
+5. Worked on creating KOB deployment configs for CI/CD pipeline automation
+6. integrated new upload functionality to the application making sure that it is scalable and donot break existing flow
+7. Migrated normal UI Framework to Micro Front end architecture making the application loose coupled and removing extensive dependency
+8. Introduced global styling packages so that the UI is same in all the places
+9. Created confluence pages for documenting new changes so that new teammates donot need to have explicit KT of the application and setup
+10. Upgraded traditional logger to custom logger so that we can generate the error or success responses accordingly using open telemetry
+
+
+Can you give refined points based on above points in googles xyz format
