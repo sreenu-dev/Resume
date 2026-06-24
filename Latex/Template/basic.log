@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.16)  19 JUN 2026 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.16)  24 JUN 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,7 +281,6 @@ LaTeX Font Info:    ... okay on input line 77.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 77.
- (basic.out) (basic.out)
 \@outlinefile=\write3
 \openout3 = `basic.out'.
 
@@ -298,13 +297,20 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 82.
 (C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+e:/Resume/Latex/Template/basic.tex:93: You can't use `macro parameter character #' in horizontal mode.
+l.93 ...hon, Java, JavaScript, SQL, TypeScript, c#
+                                                  } \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 110.
-
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -342,21 +348,27 @@ L3 programming layer <2026-05-26>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `basic.out' has not changed.
-(rerunfilecheck)             Checksum: E930F86CE30D55EBD58AE640D9175A71;611.
+
+Package rerunfilecheck Warning: File `basic.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `basic.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E930F86CE30D55EBD58AE640D9175A71;611.
  ) 
 Here is how much of TeX's memory you used:
- 10925 strings out of 467509
- 174545 string characters out of 5408780
- 632203 words of memory out of 5000000
- 40038 multiletter control sequences out of 15000+600000
+ 10913 strings out of 467509
+ 174369 string characters out of 5408780
+ 632214 words of memory out of 5000000
+ 40030 multiletter control sequences out of 15000+600000
  634348 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,79p,379b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\sreen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\sreen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on basic.pdf (3 pages, 135569 bytes).
+Output written on basic.pdf (3 pages, 133732 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

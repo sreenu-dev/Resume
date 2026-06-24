@@ -115,14 +115,8 @@ OUTPUT basic.aux
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT .\basic.out
-INPUT .\basic.out
-INPUT basic.out
-INPUT basic.out
-OUTPUT basic.pdf
-INPUT .\basic.out
-INPUT .\basic.out
 OUTPUT basic.out
+OUTPUT basic.pdf
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
