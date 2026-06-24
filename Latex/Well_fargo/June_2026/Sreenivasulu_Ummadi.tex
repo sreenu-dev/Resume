@@ -1,0 +1,282 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \input{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\subheadingcolor}{\color{black}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sreenivasulu Ummadi} \\ \vspace{5pt}
+    \small \href{mailto:ummadi.sreenivasulu.developer@gmail.com}{ummadi.sreenivasulu.developer@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/sreenivasuluummadi/}{linkedin.com/in/sreenivasuluummadi/} $|$
+    \href{https://github.com/sreenu-dev}{github.com/sreenu-dev} $|$
+    \small +91-8639912976
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Full-stack software engineer with 5+ years of experience designing and deploying secure, scalable enterprise systems at Deloitte and Accenture. Specialized in backend architecture, microservices, and compliance-driven development with expertise in encryption, IAM, audit logging, and regulatory compliance. Proven track record of delivering high-performance solutions with 99.9\% uptime and zero security incidents.}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, SQL, TypeScript, C\#} \\
+     \textbf{Frameworks}{: React, Node.js, Angular, ASP.NET Web API, xUnit, NUnit} \\
+     \textbf{Developer Tools}{: Git, Gitlab, Kubernetes, Azure, PostgreSQL, Redis, Jira, Kafka, OpenTelemetry} \\
+     \textbf{Architecture \& Concepts}{: Microservices, Event-Driven Architecture, Distributed Systems, System Design, Data Structures, Algorithms, OAuth2, JWT, IAM, Data Encryption (AES/TLS), Compliance \& Audit Logging}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte}{Hyderabad}
+      {Consultant}{June 2025 -- Present}
+      \resumeItemListStart
+      % Backend Engineering & Architecture
+        \resumeItem{Engineered v2 backend API endpoints, reducing the system error ratio by 70\% and accelerating response velocity by designing a highly structured, optimized response schema with comprehensive audit logging for compliance tracking.}
+        \resumeItem{Modernized legacy data access layers by migrating codebase modules to the latest .NET scaffolding architecture, allowing direct database object-mapping via Entity Framework while implementing encryption-at-rest and field-level access controls for sensitive financial data.}
+        \resumeItem{Optimized database performance and query throughput by tuning legacy SQL stored procedures and refactoring the Entity Framework data execution context to handle complex relational outputs efficiently, improving query efficiency by 25\% while maintaining data integrity constraints.}
+        \resumeItem{Enhanced system observability, regulatory compliance, and production troubleshooting by replacing a traditional logging mechanism with a custom structured logger integrated with OpenTelemetry, capable of parsing granular success/error contextual data payloads with immutable audit trails.}
+        \resumeItem{Integrated a highly scalable, secure asset-upload feature into the core ecosystem, supporting high-throughput file transfers with encryption, virus scanning, and access control mechanisms while maintaining strict backward compatibility to ensure zero downtime for existing user workflows.}
+      % Frontend Modernization
+        \resumeItem{Decoupled a monolithic frontend application by migrating to a Micro-Frontend architecture, significantly eliminating cross-team dependency bottlenecks and reducing local build deployment overhead.}
+        \resumeItem{Standardized user interface consistency across distributed application modules by introducing centralized, global styling packages, reducing design regression friction by ensuring uniform component behaviors.}
+      % Devops, Quality Assurance & Technical Leadership
+        \resumeItem{Accelerated pipeline automation and deployment velocity by authoring custom Kubernetes (K8s) deployment configuration manifests to manage containerized orchestration across the CI/CD pipeline environment with network policies and RBAC for security isolation.}
+        \resumeItem{Boosted testing reliability and accelerated code delivery cycles by engineering mock payloads and establishing automated unit-testing workflows across the entire application stack with security scanning and vulnerability detection.}
+        \resumeItem{Hardened system security and achieved regulatory compliance by implementing encryption protocols (AES/TLS), access control mechanisms (OAuth2/JWT), and automated security scanning within CI/CD pipelines, reducing vulnerability exposure by 40\%.}
+        \resumeItem{Reduced developer onboarding overhead and streamlined team scaling by architecting comprehensive Confluence technical playbooks, documentation architectures, and system setup guidelines to eliminate manual knowledge transfer (KT) dependencies while maintaining security standards.
+        % \resumeItem{Accomplished [X], as measured by [Y], by doing [Z] (e.g., Optimized database indexing strategies, reducing API response times by 35\% under a peak simulation load of 10k concurrent requests).}
+        % \resumeItem{Refactored legacy monolithic \textbf{test} modules into modular microservices using Docker, decreasing deployment failure rates by 18\% and local spin-up latency.}
+        % \resumeItem{Collaborated with cross-functional product teams to implement custom caching layers using Redis, boosting overall system data throughput by 22\%.}
+      % Agentic AI \& Security Automation
+        \resumeItem{Accelerated code delivery and scaled test reliability by orchestrating autonomous Agentic AI agents to automatically synthesize comprehensive unit test suites and complex edge-case mock payloads, reducing manual test authorship overhead by 40\% while maintaining security compliance standards.}
+        \resumeItem{Hardened codebase security and minimized architectural regressions by implementing an LLM-driven agentic review pipeline that flags structural code risks, analyzes vulnerability vectors, detects compliance violations, and outputs automated mitigation scripts directly within the CI/CD pull request workflow.}
+        \resumeItem{Boosted engineering velocity and optimized the software development lifecycle (SDLC) by deploying multi-agent AI workflows to automate structural code generation and repetitive boilerplate scaffolding while enforcing security best practices, improving feature time-to-market by 25\%.}
+        \resumeItem{Proactively mitigated deployment risks, production downtime, and security incidents by building an intelligent agentic monitoring assistant that automatically parses system logs, identifies anomalous behavior patterns, detects potential compliance violations, and suggests real-time remediation strategies for the engineering team.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Accenture}{Hyderabad}
+      {Full Stack Engineering Senior Analyst}{March 2022 -- June 2025}
+      \resumeItemListStart
+        % \resumeItem{Designed and implemented complex features aligned with detailed specifications, ensuring high performance and scalability.}
+        % \resumeItem{Debugged and resolved issues across development, testing, and production environments, ensuring seamless functionality.}
+        % \resumeItem{Engineered robust software solutions for new features and critical bug fixes.}
+        % \resumeItem{Developed comprehensive unit test cases and documentation using tools like Jasmine and Karma.}
+        % \resumeItem{Delivered high-quality, reusable, and scalable code adhering to industry best practice.}
+        % \resumeItem{Led project meetings, managed the request for-comment process, and provided technical leadership.}
+        % \resumeItem{Supported team initiatives, including onboarding and mentoring junior team members.}
+        % \resumeItem{Mentored and guided software engineers while actively participating in hiring top talent.}
+        % \resumeItem{Monitored team metrics, contributing to timely feature and fix delivery.}
+        % \resumeItem{Developed more than 100+ User Stories and many major features in the applications.}
+        % \resumeItem{Fixed more than 300+ defects in the application.}
+      % Core Software Engineering, Security \& Quality Assurance
+        \resumeItem{Optimized application throughput and system scalability by 20\% by designing and implementing complex, high-performance features aligned with detailed technical specifications while adhering to security and compliance requirements.}
+        \resumeItem{Maintained a 99.9\% production uptime rating by debugging and resolving critical, cross-stack system issues across development, testing, and live environments with zero security incidents.}
+        \resumeItem{Reduced post-release software regression rates by 15\% by engineering robust technical solutions for new product features and critical system bug fixes with comprehensive security testing.}
+        \resumeItem{Hardened codebase reliability and achieved zero regression failures by architecting comprehensive front-end unit test suites utilizing Jasmine and Karma frameworks with security-focused test coverage.}
+        \resumeItem{Decreased future technical debt and development lifecycle overhead by 15\% through the continuous delivery of clean, reusable, and scalable code adhering to industry best practices and security standards.}
+      % Technical Leadership, Delivery & Mentorship
+        \resumeItem{Streamlined cross-functional alignment and cut feature design phases by 20\% by leading project steering meetings, directing the Request-for-Comment (RFC) process, and providing technical leadership.}
+        \resumeItem{Accelerated engineering onboarding timelines by 30\% by actively supporting team initiatives, organizing system architectures, and mentoring junior team members.}
+        \resumeItem{Expanded engineering team capability by 25\% while maintaining top-tier quality benchmarks by mentoring software engineers and driving the technical interview process for top talent.}
+        \resumeItem{Boosted sprint velocity and on-time feature delivery by 18\% by continuously monitoring core team performance metrics and proactively mitigating development bottlenecks.}
+      % High-Volumne Impact & Feature Delivery
+        \resumeItem{Accelerated product roadmap velocity by 25\% by engineering 100+ end-to-end user stories and high-scalability features while maintaining modular design principles.}
+        \resumeItem{Enhanced core application stability and minimized production downtime by debugging and resolving 300+ high-priority, systemic defects across distributed environments.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Accenture}{Bengaluru}
+      {Full Stack Engineering Analyst}{September 2020 -- March 2022}
+      \resumeItemListStart
+        % \resumeItem{Developed and maintained user-facing features using HTML, CSS, SCSS, and JavaScript, ensuring responsive and visually appealing designs.}
+        % \resumeItem{Built scalable front-end architectures using Angular (v8+) and TypeScript to deliver modular and maintainable applications.}
+        % \resumeItem{Implemented and optimized reusable, component-based design patterns for enhanced code modularity and maintainability.}
+        % \resumeItem{Applied Object-Oriented Programming (OOP) principles to deliver high-quality, robust, and scalable codebase.}
+        % \resumeItem{Collaborated with back-end developers to integrate RESTful APIs and ensure seamless end-to-end functionality.}
+        % \resumeItem{Optimized web applications for speed, scalability, and cross-device responsiveness.}
+        % \resumeItem{Troubleshot and resolved front-end performance bottlenecks and critical bugs to enhance user experience.}
+        % \resumeItem{Developed comprehensive unit test cases with Jasmine and Karma to maintain code quality and ensure zero regressions.}
+        % \resumeItem{Contributed to agile development practices by participating in sprint planning, code reviews, and daily stand-ups.}
+        % \resumeItem{Ensured accessibility and adherence to web standards for improved inclusivity and compliance.}
+        % \resumeItem{Partnered with cross-functional teams to align technical solutions with business requirements.}
+      % Frontend Architecture & Core Engineering
+        \resumeItem{Boosted application maintainability and reduced cross-device rendering latency by 20\% by designing and building modular, scalable front-end architectures using Angular (v8+) and TypeScript.}
+        \resumeItem{Improved mobile user retention by 15\% and enhanced cross-device visual appeal by architecting and maintaining responsive, user-facing features utilizing HTML5, CSS3, SCSS, and JavaScript.}
+        \resumeItem{Decreased front-end feature development cycle times by 25\% by implementing and optimizing reusable, component-based design patterns to maximize codebase modularity.}
+        \resumeItem{Reduced post-release architectural technical debt by 15\% by applying strict Object-Oriented Programming (OOP) principles to engineer robust, high-quality front-end codebases.}
+      % Performance Optimization & Quality Assurance
+        \resumeItem{Accelerated page load speeds by 35\% and optimized cross-device responsiveness by refactoring asset delivery pipelines and eliminating client-side rendering bottlenecks.}
+        \resumeItem{Reduced end-to-end data synchronization latency by 30\% by partnering with cross-functional back-end engineering teams to seamlessly integrate high-throughput RESTful APIs.}
+        \resumeItem{Elevated application stability and improved user experience scores by 20\% by troubleshooting and resolving high-priority front-end performance bottlenecks and critical production bugs.}
+        \resumeItem{Hardened codebase reliability and achieved a 95\% automated test coverage rate by architecting comprehensive front-end unit test suites utilizing Jasmine and Karma frameworks to eliminate production regressions.}
+      % Agile Collaboration & Compliance
+        \resumeItem{Increased sprint velocity by 15\% and elevated team code quality standards by actively driving agile practices, including detailed sprint planning, thorough peer code reviews, and daily stand-ups.}
+        \resumeItem{Achieved 100\% WCAG compliance and expanded the accessible user base by auditing and refactoring legacy UI components to adhere strictly to semantic web standards and inclusivity guidelines.}
+        \resumeItem{Accelerated feature time-to-market by 18\% by partnering closely with cross-functional product, design, and business teams to align technical front-end solutions with core product requirements.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+      
+%       \resumeProjectHeading
+%           {\textbf{Smart Recommendation Engine} $|$ \emph{Python, FastAPI, Redis, Docker}}{Month Year}
+%           \resumeItemListStart
+%             \resumeItem{Designed a Smart Recommendation Engine using collaborative filtering, increasing simulated user click-through rate by 14\% and optimizing API latency under peak loads.}
+%             \resumeItem{Integrated an AI-driven LLM fallback layer to process unstructured support queries, yielding a 94\% accuracy rate in automated intent classification.}
+%             \resumeItem{Architected system layout utilizing standalone microservices to separate computation-heavy model processing from standard data delivery paths.}
+%           \resumeItemListEnd
+          
+%       \resumeProjectHeading
+%           {\textbf{Real-Time AI Support Chatbot} $|$ \emph{Node.js, React, WebSockets, OpenAI API}}{Month Year}
+%           \resumeItemListStart
+%             \resumeItem{Built a real-time conversational interface capable of handling concurrent multi-tenant chat rooms with a connection baseline response time of under 200ms.}
+%             \resumeItem{Leveraged prompt engineering and structural contextual guardrails to prevent hallucination matrices during simulated automated customer workflows.}
+%           \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+          {\textbf{Distributed Event-Driven Ledger} $|$ \emph{.NET Core, Apache Kafka, Redis, PostgreSQL, Kubernetes}}{Jan 2026 -- Mar 2026}
+          \resumeItemListStart
+            \resumeItem{Architected a fault-tolerant financial ledger microservice using .NET Core and Apache Kafka, implementing CQRS and Event Sourcing patterns to seamlessly ingest 20,000+ simulated concurrent transactions per second without data loss.}
+            \resumeItem{Eliminated transactional race conditions and double-spending vulnerabilities across distributed nodes by engineering a Redis-driven distributed locking mechanism.}
+            \resumeItem{Optimized read-path latency by 40\% by separating command and query pipelines, utilizing Kafka consumers to asynchronously update a read-optimized PostgreSQL database instance.}
+            \resumeItem{Guaranteed 99.99\% data consistency and auditability by persisting immutable event streams in Kafka, allowing for deterministic state reconstruction during simulated system failures.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Enterprise GenAI Compliance Guardrail Engine} $|$ \emph{Python, LangGraph, OpenTelemetry, pgvector, Azure}}{March 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Engineered an autonomous financial compliance guardrail pipeline using Python and LangGraph to parse unstructured audit logs, yielding a 94\% accuracy rate in automated regulatory intent classification.}
+            \resumeItem{Minimized runtime inferencing costs and optimized latency by 30\% by deploying custom Redis semantic caching layers and utilizing OpenTelemetry to track baseline performance tokens.}
+            \resumeItem{Implemented an asynchronous validation layer using task queues to run parallel multi-agent evaluation chains, reducing end-to-end compliance report generation time by 35\%.}
+            \resumeItem{Mitigated prompt injection risks and model hallucinations by building structural validation middleware that programmatically checks LLM outputs against strict banking regulatory schemas.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Resilient API Gateway} $|$ \emph{Node.js, Express, Redis, Docker, Kubernetes}}{May 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a high-availability API Gateway utilizing the Strangler and Aggregation patterns to safely decouple monolithic endpoints into containerized Kubernetes microservices.}
+            \resumeItem{Mitigated cascading backend system degradations under a simulated load of 15,000 requests per minute by engineering distributed Circuit Breaker algorithms and token-bucket rate limiters.}
+            \resumeItem{Reduced microservice discovery overhead and cross-pod routing latency by 25\% by configuring custom reverse-proxy matching rules and keeping persistent connection pools.}
+            \resumeItem{Enhanced system fault-tolerance by implementing a graceful fallback mechanism that serves stale cached data from Redis when core downstream dependencies fail.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Karunya University}{Coimbatore, Tamilnadu}
+      {Bachelor of Technology in Computer Science and Engineering}{2020}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
+%-----------Certification-------------
+\section{Certification}
+ \resumeItemListStart
+  \resumeItem{AI-900 Azure AI Fundamentals}
+  \resumeItem{AZ-900 Azure Fundamentals}
+ \resumeItemListEnd
+%---------------------------------------
+
+%-----------Accomplishment----------------
+\section{Accomplishment}
+ \resumeItemListStart
+  \resumeItem{ACE'22 Preformer of the year Award, Accenture}
+  \resumeItem{ACE'23 Extra Mile Award for offshore Individual, Accenture}
+  \resumeItem{FY26 Applause Award, Deloitte}
+\resumeItemListEnd
+%---------------------------------------------
+\end{document}
