@@ -1,0 +1,196 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sreenivasulu Ummadi} \\ \vspace{5pt}
+    \small \href{mailto:ummadi.sreenivasulu.developer@gmail.com}{ummadi.sreenivasulu.developer@gmail.com} $|$
+    \href{https://www.linkedin.com/in/sreenivasuluummadi/}{linkedin.com/in/sreenivasuluummadi/} $|$
+    \href{https://github.com/sreenu-dev}{github.com/sreenu-dev} $|$
+    \small +91-8639912976
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Full-stack software engineer with 5+ years building customer-centric, scalable systems at Deloitte and Accenture using C\#/.NET Core, TypeScript, React, and Azure. Passionate about continuous learning and cross-functional collaboration — consistently grown through new challenges, from distributed systems architecture to pioneering multi-agent AI orchestration pipelines aligned with Microsoft Copilot design patterns. Committed to raising the engineering bar through mentorship, technical leadership, and inclusive development practices.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C\#/.NET Core (Primary), TypeScript, Python, Java, JavaScript, SQL} \\
+     \textbf{Frameworks}{: ASP.NET Web API, React, Angular, Spring Boot, Node.js, xUnit, NUnit} \\
+     \textbf{Cloud \& Infrastructure}{: Azure (AZ-900 Certified) --- App Service, Functions, Service Bus, Cosmos DB, Azure SQL, AKS, API Management, Monitor, Redis Cache; Kubernetes, Docker} \\
+     \textbf{Data \& Messaging}{: PostgreSQL, Apache Kafka, Redis, OpenTelemetry} \\
+     \textbf{AI \& Automation}{: LangGraph, Multi-Agent Orchestration, pgvector, LLM Guardrails (aligned with Semantic Kernel patterns)} \\
+     \textbf{Architecture}{: Microservices, Event-Driven Architecture, CQRS, Event Sourcing, Distributed Systems, System Design, OAuth2, JWT, IAM, CI/CD}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte}{Hyderabad}
+      {Consultant}{June 2025 -- Present}
+      \resumeItemListStart
+      % Growth Mindset + Customer Impact
+        \resumeItem{Adopted a growth mindset to diagnose and eliminate systemic API failure patterns in an ASP.NET Core service --- redesigning the response schema and adding structured audit logging, driving a 70\% error reduction and improving reliability for 50,000+ daily users.}
+        \resumeItem{Dove deep into production query bottlenecks, proactively tuning SQL stored procedures and refactoring Entity Framework execution contexts to achieve 25\% query efficiency improvement, cutting customer-facing API latency by 800ms at peak load.}
+        \resumeItem{Enhanced production observability and reduced mean-time-to-detect by 60\% by self-teaching OpenTelemetry and replacing a legacy logging mechanism with a custom structured logger --- turning a personal learning investment into a team-wide operational capability.}
+        \resumeItem{Owned end-to-end delivery of a high-throughput secure asset-upload feature serving 10,000+ daily file transfers, integrating Azure Blob Storage patterns, virus scanning, and RBAC access controls with zero-downtime backward compatibility.}
+      % Collaboration + One Microsoft
+        \resumeItem{Partnered across 4 cross-functional teams to lead the migration from a monolithic frontend to a Micro-Frontend architecture using React and TypeScript, increasing deployment frequency 3x and eliminating cross-team coupling bottlenecks for 6 feature teams.}
+        \resumeItem{Collaborated with DevOps and security teams to author Azure Kubernetes Service (AKS) deployment manifests with RBAC network policies, reducing deployment cycle time from 45 minutes to under 8 minutes.}
+        \resumeItem{Raised the engineering bar by architecting comprehensive Confluence knowledge bases and onboarding systems, cutting new-engineer ramp-up from 3 weeks to 5 days and scaling the team from 8 to 15 engineers without productivity loss.}
+      % Innovation + Inclusive AI (Copilot-aligned)
+        \resumeItem{Pioneered a multi-agent AI orchestration system --- architecturally aligned with Microsoft Semantic Kernel patterns --- to automatically synthesize unit test suites and edge-case mock payloads, reducing manual test authorship overhead by 40\% and eliminating the need for 2 additional QA hires.}
+        \resumeItem{Built an intelligent agentic monitoring assistant that parses system logs, identifies anomalous patterns, and surfaces real-time remediation strategies --- proactively preventing 3 production incidents in its first month and freeing engineers for higher-impact work.}
+        \resumeItem{Improved feature time-to-market by 25\% by deploying LLM-driven code generation workflows, demonstrating that thoughtful AI integration compounds engineering velocity sustainably.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Hyderabad}
+      {Full Stack Engineering Senior Analyst}{March 2022 -- June 2025}
+      \resumeItemListStart
+      % Drive + Customer Focus
+        \resumeItem{Delivered results at scale: shipped 100+ end-to-end user stories and high-impact features, accelerating product roadmap velocity by 25\% and improving experience for 200,000+ end users.}
+        \resumeItem{Maintained 99.9\% production uptime across a system serving 100,000+ concurrent sessions, proactively debugging and resolving critical cross-stack incidents across development, testing, and live environments.}
+        \resumeItem{Enhanced core application stability by debugging and resolving 300+ high-priority systemic defects across distributed environments, reducing post-release regression rates by 15\%.}
+      % Growth Mindset + Accountability
+        \resumeItem{Applied a growth mindset to continuously raise the codebase quality bar: instituted PR-level security scanning, achieved 95\% automated test coverage using xUnit and NUnit, and established a zero-regression production policy.}
+        \resumeItem{Boosted sprint velocity and on-time feature delivery by 18\% by proactively identifying and mitigating development bottlenecks --- demonstrating accountability for team outcomes beyond my own sprint tasks.}
+      % Collaboration + Mentoring (One Microsoft)
+        \resumeItem{Invested in team growth: mentored 5 junior engineers through structured pairing, weekly architecture reviews, and knowledge-sharing sessions --- 2 were promoted to senior roles within 18 months, demonstrating that raising others compounds long-term team velocity.}
+        \resumeItem{Streamlined cross-functional alignment by leading project steering meetings and the RFC process, cutting feature design phases by 20\% through inclusive stakeholder engagement across engineering, product, and QA teams.}
+      % Customer + Inclusive Design
+        \resumeItem{Championed inclusive development by leading a full WCAG 2.1 accessibility audit and remediation sprint, achieving 100\% compliance and expanding the accessible user base --- embedding accessibility checks into the PR pipeline to prevent future regressions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Bengaluru}
+      {Full Stack Engineering Analyst}{September 2020 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Boosted application maintainability and reduced cross-device rendering latency by 20\% by designing modular, scalable Angular (v8+) and TypeScript front-end architectures serving 50,000+ mobile users.}
+        \resumeItem{Accelerated page load speeds by 35\% and optimized cross-device responsiveness by refactoring asset delivery pipelines and eliminating client-side rendering bottlenecks.}
+        \resumeItem{Reduced end-to-end data synchronization latency by 30\% by collaborating with back-end engineering teams to integrate high-throughput RESTful APIs built on ASP.NET Core.}
+        \resumeItem{Increased sprint velocity by 15\% by driving agile practices including sprint planning, code reviews, and daily stand-ups --- modeling the collaborative, high-standard engineering culture I wanted the team to embody.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Distributed Event-Driven Ledger} $|$ \emph{.NET Core, Apache Kafka, Redis, PostgreSQL, Kubernetes}}{Jan 2026 -- Mar 2026}
+          \resumeItemListStart
+            \resumeItem{Architected a fault-tolerant financial ledger microservice implementing CQRS and Event Sourcing patterns to ingest 20,000+ concurrent transactions per second without data loss --- designed to production-grade reliability standards.}
+            \resumeItem{Eliminated transactional race conditions and double-spending vulnerabilities using a Redis distributed lock (Redlock algorithm), guaranteeing exactly-once transaction semantics across distributed nodes.}
+            \resumeItem{Optimized read-path latency by 40\% by separating command and query pipelines, utilizing Kafka consumers to asynchronously update a read-optimized PostgreSQL replica.}
+            \resumeItem{Documented every design decision and failure mode in detail; 3 junior engineers used this repository as a learning resource for distributed systems patterns --- turning personal exploration into team education.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Enterprise GenAI Compliance Guardrail Engine} $|$ \emph{Python, LangGraph, OpenTelemetry, pgvector, Azure}}{March 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Self-taught LangGraph and multi-agent AI orchestration to build an autonomous compliance pipeline --- architecturally aligned with Microsoft Semantic Kernel patterns --- achieving 94\% accuracy in regulatory intent classification.}
+            \resumeItem{Reduced LLM inferencing costs by 30\% and cut compliance report generation time by 35\% using Azure Cache for Redis semantic caching and parallel multi-agent evaluation chains.}
+            \resumeItem{Mitigated prompt injection risks and model hallucinations by building structural validation middleware that checks LLM outputs against strict schemas --- raising the reliability bar for production AI systems.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Resilient API Gateway} $|$ \emph{Node.js, Express, Redis, Docker, Azure Kubernetes Service}}{May 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed a high-availability API Gateway using the Strangler and Aggregation patterns to safely decompose monolithic endpoints into AKS-hosted microservices with zero customer-facing downtime.}
+            \resumeItem{Mitigated cascading backend failures under 15,000 simulated requests per minute by implementing distributed Circuit Breaker algorithms and token-bucket rate limiters.}
+            \resumeItem{Implemented graceful fallback using Azure Cache for Redis to serve stale cached data during downstream outages --- prioritizing end-user experience over strict cache freshness.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Karunya University}{Coimbatore, Tamilnadu}
+      {Bachelor of Technology in Computer Science and Engineering}{2020}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \resumeItemListStart
+  \resumeItem{AZ-900: Microsoft Azure Fundamentals}
+  \resumeItem{AI-900: Microsoft Azure AI Fundamentals}
+ \resumeItemListEnd
+
+%-----------ACCOMPLISHMENTS-----------
+\section{Accomplishments}
+ \resumeItemListStart
+  \resumeItem{ACE'22 Performer of the Year Award --- Accenture}
+  \resumeItem{ACE'23 Extra Mile Award for Offshore Individual --- Accenture}
+  \resumeItem{FY26 Applause Award --- Deloitte}
+\resumeItemListEnd
+
+\end{document}
