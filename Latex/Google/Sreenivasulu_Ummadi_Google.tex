@@ -1,0 +1,194 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sreenivasulu Ummadi} \\ \vspace{5pt}
+    \small \href{mailto:ummadi.sreenivasulu.developer@gmail.com}{ummadi.sreenivasulu.developer@gmail.com} $|$
+    \href{https://www.linkedin.com/in/sreenivasuluummadi/}{linkedin.com/in/sreenivasuluummadi/} $|$
+    \href{https://github.com/sreenu-dev}{github.com/sreenu-dev} $|$
+    \small +91-8639912976
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Full-stack software engineer with 5+ years designing and delivering highly-scalable, reliable systems at Deloitte and Accenture. Deep expertise in distributed systems, microservices architecture, and optimization for massive scale (1M+ QPS). Proven track record of building systems with 99.9\%+ uptime, comprehensive testing (95\%+ code coverage), and measurable user impact. Passionate about technical excellence, optimization, and AI/ML applications. Experienced with Python, Java, and cloud platforms (AWS, Azure, GCP).}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C\#/.NET Core, JavaScript/TypeScript, SQL} \\
+     \textbf{Frameworks}{: Django, Spring Boot, ASP.NET Web API, React, Angular, Node.js, TensorFlow} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (EC2, S3, Lambda, RDS, SQS), GCP (BigQuery, Pub/Sub, Spanner), Azure, Kubernetes (EKS/AKS), Docker} \\
+     \textbf{Data \& Messaging}{: PostgreSQL, BigQuery, Apache Kafka, Redis, Protocol Buffers, gRPC, OpenTelemetry} \\
+     \textbf{AI/ML}{: LangGraph, Multi-Agent Orchestration, TensorFlow, pgvector, LLM Applications} \\
+     \textbf{Architecture}{: Microservices, Event-Driven, CQRS, Event Sourcing, Saga Pattern, Distributed Systems, SRE} \\
+     \textbf{Testing \& Reliability}{: Unit Tests, Integration Tests, End-to-End Tests, Chaos Engineering, SRE Practices}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte}{Hyderabad}
+      {Consultant}{June 2025 -- Present}
+      \resumeItemListStart
+      % Technical Excellence + Optimization
+        \resumeItem{Eliminated systemic API failure patterns in an ASP.NET Core financial service, driving a 70\% reduction in error rate for 50,000+ daily users --- proactively identifying a race condition that posed a double-processing risk and resolving it with Redis distributed locking before it reached production.}
+        \resumeItem{Optimized API response latency by 40\% (from 2s to 1.2s p99) through algorithmic improvements, query optimization, and caching strategies --- directly improving user experience for 50,000+ daily users and reducing infrastructure costs by 25\%.}
+        \resumeItem{Dove deep into production query bottlenecks, tuning SQL stored procedures and refactoring Entity Framework execution contexts to achieve 25\% query efficiency improvement, cutting customer-facing latency by 800ms at peak load while maintaining full data integrity constraints.}
+      % Testing + Reliability
+        \resumeItem{Replaced a legacy logging mechanism with a custom OpenTelemetry structured logger producing immutable, granular audit trails --- reducing mean-time-to-detect production anomalies by 60\% and enabling comprehensive observability across distributed systems.}
+        \resumeItem{Achieved 95\% code coverage through comprehensive unit tests, integration tests, and end-to-end tests --- implementing SRE best practices including chaos engineering and failure injection to proactively identify failure modes before they reach production.}
+      % Scale + Impact
+        \resumeItem{Implemented defence-in-depth security controls (AES-256 at rest, TLS 1.3 in transit, OAuth2/JWT, automated OWASP scanning in CI/CD) and RBAC network policies in Kubernetes, reducing vulnerability exposure by 40\% and achieving zero security incidents.}
+        \resumeItem{Accelerated CI/CD pipeline by authoring Kubernetes deployment manifests with RBAC network policies and security isolation, reducing deployment cycle time from 45 minutes to under 8 minutes across 6 feature teams.}
+      % Intellectual Curiosity + AI
+        \resumeItem{Pioneered an LLM-driven agentic code review pipeline that automatically flags structural risks, detects compliance violations, and outputs mitigation scripts within CI/CD pull request workflows --- reducing architectural regressions by 35\%.}
+        \resumeItem{Designed and deployed an Agentic AI test orchestration system that synthesizes comprehensive unit test suites and edge-case mock payloads from code diffs, reducing manual test authorship overhead by 40\% while maintaining security compliance standards.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Hyderabad}
+      {Full Stack Engineering Senior Analyst}{March 2022 -- June 2025}
+      \resumeItemListStart
+      % Scale + Impact
+        \resumeItem{Delivered results at scale across 200,000+ end users: shipped 100+ end-to-end user stories and high-impact features, accelerating product roadmap velocity by 25\% while maintaining security and compliance standards.}
+        \resumeItem{Maintained 99.9\% production uptime across a system serving 100,000+ concurrent sessions, debugging and resolving 300+ high-priority systemic defects across distributed environments with zero security incidents.}
+      % Technical Excellence
+        \resumeItem{Hardened codebase reliability by architecting comprehensive unit test suites (Jasmine/Karma), achieving 95\% automated test coverage and eliminating entire categories of production regressions --- reducing post-release defect rates by 15\%.}
+      % User Focus
+        \resumeItem{Proactively advocated for users with disabilities by leading a full WCAG 2.1 accessibility audit and remediation, achieving 100\% compliance and embedding accessibility checks into the PR pipeline to prevent future regression.}
+      % Collaboration
+        \resumeItem{Invested in team growth: mentored 5 junior engineers through structured pairing and weekly architecture reviews --- 2 were promoted to senior roles within 18 months, raising the team's overall engineering quality bar.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Bengaluru}
+      {Full Stack Engineering Analyst}{September 2020 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Reduced cross-device rendering latency by 20\% and improved mobile user retention by 15\% by designing scalable Angular (v8+) and TypeScript front-end architectures for 50,000+ users.}
+        \resumeItem{Accelerated page load speeds by 35\% and reduced data synchronization latency by 30\% through front-end pipeline optimizations and high-throughput RESTful API integrations.}
+        \resumeItem{Achieved 100\% WCAG accessibility compliance and increased automated test coverage to 95\% using Jasmine and Karma, eliminating production regressions and expanding the accessible user base.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Distributed Financial Ledger} $|$ \emph{Python, Java, Kafka, Redis, PostgreSQL, Kubernetes, GCP}}{Jan 2026 -- Mar 2026}
+          \resumeItemListStart
+            \resumeItem{Architected a fault-tolerant, horizontally-scalable payment ledger microservice using Kafka and CQRS/Event Sourcing patterns, processing 20,000+ concurrent transactions per second with guaranteed settlement finality and zero data loss.}
+            \resumeItem{Optimized read-path latency by 40\% by separating command and query pipelines; Kafka consumers asynchronously update a read-optimized PostgreSQL replica, enabling real-time reconciliation queries without impacting write throughput.}
+            \resumeItem{Implemented idempotency keys and exactly-once transaction semantics using Redis distributed locking (Redlock algorithm), eliminating double-processing risk --- a critical correctness guarantee for financial settlement systems.}
+            \resumeItem{Guaranteed 99.99\% data consistency and full auditability by persisting immutable event streams in Kafka, enabling deterministic state reconstruction and comprehensive audit trails across all transactions.}
+            \resumeItem{Designed for horizontal scaling: system scales linearly as more instances are added, supporting future growth to 1M+ QPS.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{GenAI Financial Compliance Guardrail Engine} $|$ \emph{Python, LangGraph, TensorFlow, pgvector, GCP}}{March 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Engineered an autonomous multi-agent compliance pipeline using Python and LangGraph to parse unstructured financial audit documents, achieving 94\% accuracy in regulatory intent classification --- demonstrating the power of AI agents for real-world problems.}
+            \resumeItem{Reduced compliance report generation time by 35\% using asynchronous parallel multi-agent evaluation chains, and cut LLM inferencing cost by 30\% through Redis semantic caching and optimized prompt engineering.}
+            \resumeItem{Mitigated prompt injection risks and hallucinations by building structural validation middleware enforcing LLM outputs against strict financial regulatory schemas --- maintaining production-grade output integrity.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Resilient API Gateway} $|$ \emph{Python, Java, Redis, Docker, Kubernetes, AWS}}{May 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed a high-availability API Gateway using Strangler and Aggregation patterns to safely decompose monolithic endpoints into containerized microservices with zero customer-facing downtime.}
+            \resumeItem{Mitigated cascading backend failures under 15,000 requests/minute by engineering Circuit Breaker algorithms and token-bucket rate limiters --- protecting downstream services from cascade overload.}
+            \resumeItem{Implemented graceful degradation via Redis stale-cache fallback and multi-region failover, maintaining partial service availability during downstream outages and eliminating hard failures for end users.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Karunya University}{Coimbatore, Tamilnadu}
+      {Bachelor of Technology in Computer Science and Engineering}{2020}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \resumeItemListStart
+  \resumeItem{AZ-900: Microsoft Azure Fundamentals}
+  \resumeItem{AI-900: Microsoft Azure AI Fundamentals}
+ \resumeItemListEnd
+
+%-----------ACCOMPLISHMENTS-----------
+\section{Accomplishments}
+ \resumeItemListStart
+  \resumeItem{ACE'22 Performer of the Year Award --- Accenture}
+  \resumeItem{ACE'23 Extra Mile Award for Offshore Individual --- Accenture}
+  \resumeItem{FY26 Applause Award --- Deloitte}
+\resumeItemListEnd
+
+\end{document}
