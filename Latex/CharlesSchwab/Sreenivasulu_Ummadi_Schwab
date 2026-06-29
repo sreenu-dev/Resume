@@ -1,0 +1,191 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sreenivasulu Ummadi} \\ \vspace{5pt}
+    \small \href{mailto:ummadi.sreenivasulu.developer@gmail.com}{ummadi.sreenivasulu.developer@gmail.com} $|$
+    \href{https://www.linkedin.com/in/sreenivasuluummadi/}{linkedin.com/in/sreenivasuluummadi/} $|$
+    \href{https://github.com/sreenu-dev}{github.com/sreenu-dev} $|$
+    \small +91-8639912976
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Financial-domain software engineer with 5+ years at Deloitte and Accenture, building highly-reliable, compliance-grade enterprise systems for financial services clients. Deep expertise in distributed financial data systems with exactly-once transaction semantics, SEC/FINRA-aligned audit trails, and defence-in-depth security. Proven track record of delivering measurable client impact: 70\% error reduction in payment systems, 99.9\%+ uptime, and zero security incidents. Experience in AI/ML automation directly aligned with Schwab's Intelligent Portfolios and fraud detection roadmap.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C\#/.NET Core, Python, JavaScript/TypeScript, SQL} \\
+     \textbf{Frameworks}{: Spring Boot, ASP.NET Web API, React, Angular, Node.js, xUnit, NUnit} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (EC2, S3, Lambda, SQS, RDS), Azure (AKS, App Service), Kubernetes, Docker, CI/CD} \\
+     \textbf{Data \& Messaging}{: PostgreSQL, Oracle, Redis, Apache Kafka, Elasticsearch, OpenTelemetry} \\
+     \textbf{Financial Systems}{: Event Sourcing, CQRS, Transactional Outbox, Idempotency Keys, Exactly-Once Semantics} \\
+     \textbf{AI \& Automation}{: LangGraph, Multi-Agent Orchestration, Python AI Pipelines, pgvector, Fraud Detection Patterns} \\
+     \textbf{Security \& Compliance}{: AES-256/TLS 1.3, OAuth2/JWT, MFA, OWASP, RBAC, Zero-Trust, SOX/FINRA-aligned Audit Trails}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte}{Hyderabad}
+      {Consultant}{June 2025 -- Present}
+      \resumeItemListStart
+      % Client First + Data Integrity
+        \resumeItem{Eliminated a systemic payment API failure pattern causing 4,000+ failed client transactions per day --- end-to-end ownership from root cause (race condition resolved with Redis distributed locking) through deployment and 48-hour post-release monitoring, reducing error rate from 2\% to under 0.1\%.}
+        \resumeItem{Optimized financial data query performance by 25\% through SQL tuning and Entity Framework refactoring, cutting client-facing transaction latency by 800ms at peak load --- directly improving response times for 50,000+ daily users.}
+      % Integrity + Compliance
+        \resumeItem{Implemented defence-in-depth security controls aligned with financial services regulatory standards --- AES-256 encryption at rest, TLS 1.3 in transit, OAuth2/JWT with MFA, RBAC Kubernetes network policies, and OWASP-compliant automated vulnerability scanning in CI/CD --- reducing vulnerability exposure by 40\% and achieving zero security incidents.}
+        \resumeItem{Replaced a legacy logging mechanism with a custom OpenTelemetry structured audit logger producing immutable, tamper-evident transaction records --- reducing mean-time-to-detect anomalies by 60\% and enabling compliance-grade audit trails for financial operations.}
+        \resumeItem{Achieved 95\% code coverage through comprehensive unit, integration, and end-to-end tests --- implementing chaos engineering and failure injection to proactively identify failure modes before they reached production or impacted clients.}
+      % Innovation + AI
+        \resumeItem{Pioneered an LLM-driven agentic code review pipeline using Python and LangGraph --- automatically flagging structural risks and compliance violations within CI/CD workflows --- reducing architectural regressions by 35\% and aligning with Schwab's AI-powered compliance automation roadmap.}
+        \resumeItem{Designed and deployed an Agentic AI test orchestration system that synthesizes unit test suites and edge-case payloads from code diffs, reducing manual test authorship by 40\% while maintaining compliance standards for financial-grade code.}
+      % Collaboration + DevOps
+        \resumeItem{Accelerated enterprise CI/CD pipeline by authoring Kubernetes deployment manifests with RBAC isolation, reducing deployment cycle time from 45 minutes to under 8 minutes --- enabling reliable, frequent delivery of client-facing features.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Hyderabad}
+      {Full Stack Engineering Senior Analyst}{March 2022 -- June 2025}
+      \resumeItemListStart
+      % Client First + Results
+        \resumeItem{Maintained 99.9\% production uptime for enterprise systems serving 100,000+ concurrent users, resolving 300+ high-priority defects with zero security incidents --- treating every outage as a direct client impact, not an abstract engineering metric.}
+        \resumeItem{Delivered 100+ end-to-end features for 200,000+ enterprise end users, accelerating product roadmap velocity by 25\% while maintaining compliance standards and SLA commitments.}
+      % Integrity
+        \resumeItem{Proactively identified a PII data exposure risk in a proposed caching architecture, escalated with a formal risk assessment documenting the regulatory implications, and implemented a compliant alternative that passed the security audit with zero findings.}
+      % Innovation
+        \resumeItem{Led a full WCAG 2.1 accessibility audit and remediation for financial software --- remediating 47 issues, achieving 100\% compliance, and embedding accessibility checks into the PR pipeline --- expanding the accessible client base and meeting ADA compliance requirements.}
+      % Collaboration
+        \resumeItem{Invested in team capability: mentored 5 junior engineers through structured pairing and architecture reviews --- 2 promoted to senior roles within 18 months --- raising the team's overall code quality and reducing post-release defect rates by 15\%.}
+        \resumeItem{Led RFC and technical steering across 4 cross-functional teams, cutting feature design phases by 20\% through proactive stakeholder alignment and transparent risk communication.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Accenture}{Bengaluru}
+      {Full Stack Engineering Analyst}{September 2020 -- March 2022}
+      \resumeItemListStart
+        \resumeItem{Reduced cross-device rendering latency by 20\% and improved mobile user retention by 15\% by designing scalable Angular (v8+) and TypeScript front-end architectures for 50,000+ users.}
+        \resumeItem{Accelerated page load speeds by 35\% and reduced data synchronization latency by 30\% through front-end optimizations and high-throughput RESTful API integrations.}
+        \resumeItem{Achieved 100\% WCAG accessibility compliance and 95\% automated test coverage, eliminating production regressions and meeting financial services accessibility standards.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Distributed Financial Ledger (Trading System Architecture)} $|$ \emph{Java, Kafka, Redis, PostgreSQL, Kubernetes, AWS}}{Jan 2026 -- Mar 2026}
+          \resumeItemListStart
+            \resumeItem{Architected a fault-tolerant financial transaction ledger using Kafka and CQRS/Event Sourcing patterns, processing 20,000+ concurrent transactions per second with guaranteed exactly-once settlement semantics --- the same architectural pattern as modern trade execution systems.}
+            \resumeItem{Implemented idempotency keys and Transactional Outbox pattern using Redis distributed locking (Redlock algorithm), eliminating double-processing risk across failure scenarios --- critical for financial transaction correctness.}
+            \resumeItem{Guaranteed 99.99\% data consistency and regulatory-grade auditability by persisting immutable event streams in Kafka, enabling deterministic state reconstruction and compliance-grade audit trails aligned with SEC Rule 17a-4 record-keeping requirements.}
+            \resumeItem{Designed exactly-once semantics with full crash recovery: on restart, the system replays from the last committed event without lost or duplicate transactions.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Agentic AI Financial Compliance Guardrail Engine} $|$ \emph{Python, LangGraph, pgvector, Kafka, Azure}}{March 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Engineered an autonomous multi-agent compliance pipeline using Python and LangGraph --- aligned with Schwab's AI fraud detection and regulatory compliance automation roadmap --- achieving 94\% accuracy in financial document classification and reducing manual review time by 35\%.}
+            \resumeItem{Built human-in-the-loop escalation with full immutable audit trail of every AI decision --- ensuring regulatory-grade accountability and enabling compliance teams to audit every autonomous action, analogous to Schwab's FINRA reporting requirements.}
+            \resumeItem{Reduced LLM inferencing cost by 30\% through Redis semantic caching, making the system cost-effective at enterprise financial scale.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Resilient Financial API Gateway} $|$ \emph{C\#/.NET Core, Redis, Docker, Kubernetes, AWS}}{May 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed a high-availability API Gateway using Strangler Fig and Aggregation patterns for zero-downtime migration of legacy financial endpoints to microservices --- the same pattern required for Schwab's TD Ameritrade platform integration.}
+            \resumeItem{Implemented per-client rate limiting (token bucket, Redis), Circuit Breaker, and stale-cache graceful degradation --- protecting downstream financial services under load and meeting 99.9\% SLA commitments during backend outages.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Karunya University}{Coimbatore, Tamilnadu}
+      {Bachelor of Technology in Computer Science and Engineering}{2020}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \resumeItemListStart
+  \resumeItem{AZ-900: Microsoft Azure Fundamentals}
+  \resumeItem{AI-900: Microsoft Azure AI Fundamentals}
+ \resumeItemListEnd
+
+%-----------ACCOMPLISHMENTS-----------
+\section{Accomplishments}
+ \resumeItemListStart
+  \resumeItem{ACE'22 Performer of the Year Award --- Accenture}
+  \resumeItem{ACE'23 Extra Mile Award for Offshore Individual --- Accenture}
+  \resumeItem{FY26 Applause Award --- Deloitte}
+\resumeItemListEnd
+
+\end{document}
