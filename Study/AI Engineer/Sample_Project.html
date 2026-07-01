@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise MCP Gateway Project Specification</title>
+    <style>
+        @page { 
+            size: A4; 
+            margin: 20mm 15mm; 
+            background-color: #f4f7f9; 
+        }
+        body { 
+            font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            color: #2d3748; 
+            font-size: 10.5pt; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f9;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        .header { 
+            padding: 20px; 
+            background-color: #1a202c; 
+            color: #ffffff; 
+            border-bottom: 5px solid #3182ce; 
+            border-radius: 5px 5px 0 0;
+            margin-bottom: 20px;
+        }
+        .header h1 { 
+            margin: 0 0 5px 0; 
+            font-size: 22pt; 
+            font-weight: 300; 
+        }
+        .subtitle {
+            margin: 0;
+            font-size: 12pt;
+            color: #90cdf4;
+            font-weight: bold;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 { 
+            font-size: 14pt; 
+            color: #2b6cb0; 
+            border-bottom: 1px solid #cbd5e0; 
+            padding-bottom: 5px; 
+            margin-top: 25px; 
+            margin-bottom: 15px; 
+        }
+        ul { 
+            margin-top: 0; 
+            padding-left: 20px; 
+        }
+        li { 
+            margin-bottom: 8px; 
+        }
+        .use-case { 
+            background-color: #f8fafc; 
+            border: 1px solid #e2e8f0; 
+            border-left: 4px solid #48bb78; 
+            padding: 15px; 
+            margin-bottom: 15px; 
+        }
+        .use-case-title { 
+            font-weight: bold; 
+            color: #1a202c; 
+            margin-bottom: 8px; 
+            font-size: 11pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Project Specification</h1>
+            <p class="subtitle">Resilient Enterprise MCP Gateway</p>
+        </div>
+
+        <h2>User Story</h2>
+        <ul>
+            <li><strong>As an</strong> AI Assistant (LLM) acting on behalf of a user,</li>
+            <li><strong>I want to</strong> securely query real-time customer data, order statuses, and inventory levels from distributed enterprise systems using standardized tools,</li>
+            <li><strong>So that</strong> I can provide accurate answers without exceeding my context window (token limit) or crashing the downstream internal databases.</li>
+        </ul>
+
+        <h2>Tools Required</h2>
+        <ul>
+            <li><strong>Claude Desktop App (Free):</strong> Acts as your local MCP Host. Point Claude Desktop's configuration file to your locally running C# server to test the live integration.</li>
+            <li><strong>Docker Desktop (Free):</strong> To run local infrastructure components (e.g., a local Redis container for distributed rate-limiting).</li>
+            <li><strong>OBS Studio (Free):</strong> To record a 2-3 minute demo video of the Claude Desktop app communicating with your local C# server for your GitHub README.</li>
+            <li><strong>Draw.io / Excalidraw (Free):</strong> To create high-quality architecture diagrams for your repository documentation, proving your "platform mindset."</li>
+        </ul>
+
+        <h2>Frameworks Used</h2>
+        <ul>
+            <li><strong>.NET 8 or .NET 9:</strong> The core runtime, utilizing modern asynchronous C# patterns (<code>IAsyncEnumerable</code>, <code>async/await</code>).</li>
+            <li><strong>ASP.NET Core:</strong> To build the MCP Server implementing the standard JSON-RPC over <code>stdio</code> transport.</li>
+            <li><strong>Polly:</strong> A .NET resilience and transient-fault-handling library. Crucial for demonstrating how you protect the LLM from internal API timeouts or failures.</li>
+            <li><strong>System.Text.Json.Schema:</strong> For dynamically generating the JSON Schemas that the LLM uses to understand your tools.</li>
+            <li><strong>xUnit & Moq:</strong> For enforcing the Test-First/TDD culture highlighted in the job description.</li>
+        </ul>
+
+        <h2>Coding Platform</h2>
+        <ul>
+            <li><strong>Visual Studio Community 2022</strong> (Free) or <strong>Visual Studio Code</strong> with the C# Dev Kit extension.</li>
+        </ul>
+
+        <h2>Testing Scope</h2>
+        <ul>
+            <li><strong>Tool Schema Contract Testing:</strong> Unit tests that verify your C# methods correctly output valid JSON Schemas. If a developer adds a new parameter, the test must ensure the MCP tool description updates accordingly.</li>
+            <li><strong>Context Window Protection (Middleware Testing):</strong> Write tests that pass a simulated 10MB JSON response from a dummy database. Assert that your MCP truncation middleware intercepts this, trims the array, appends a <code>"truncated": true</code> flag, and returns a safe payload size.</li>
+            <li><strong>Resilience & Timeout Testing:</strong> Use Moq to simulate an internal API taking 15 seconds to respond. Assert that Polly intercepts the timeout, cancels the request, and returns a clean, localized error message to the LLM rather than crashing the MCP server.</li>
+            <li><strong>Rate Limiting Logic:</strong> Assert that if the MCP server receives more than 5 tool invocation requests per minute for a specific <code>client_id</code>, it rejects the 6th request to protect the backend.</li>
+        </ul>
+
+        <h2>Use Cases</h2>
+        
+        <div class="use-case">
+            <div class="use-case-title">Use Case 1: Safe Data Retrieval (The Truncation Scenario)</div>
+            <ul>
+                <li><strong>Action:</strong> The user asks Claude, "What are all the transactions for User 123?"</li>
+                <li><strong>Execution:</strong> Claude calls your <code>GetUserTransactions</code> tool. Your internal mock database returns 5,000 records. Your adapter slices this to the 10 most recent records, formats them, and returns them to Claude. Claude correctly tells the user the 10 most recent transactions.</li>
+            </ul>
+        </div>
+
+        <div class="use-case">
+            <div class="use-case-title">Use Case 2: Multi-step Tool Calling (The Agentic Scenario)</div>
+            <ul>
+                <li><strong>Action:</strong> The user asks, "Check if SKU-999 is in stock. If not, subscribe me to restock alerts."</li>
+                <li><strong>Execution:</strong> Claude uses the <code>CheckInventory</code> tool. Your server returns "0 stock". Claude autonomously decides to immediately invoke your second tool, <code>SubscribeToRestockEvent</code>, passing the SKU. Your server acknowledges, and Claude informs the user it is done.</li>
+            </ul>
+        </div>
+
+        <div class="use-case">
+            <div class="use-case-title">Use Case 3: Graceful Degradation (The Resilience Scenario)</div>
+            <ul>
+                <li><strong>Action:</strong> The user asks to check an order status.</li>
+                <li><strong>Execution:</strong> Claude calls the <code>CheckOrder</code> tool. You simulate a database outage. Instead of a stack trace leaking into the AI's prompt, your Polly implementation catches the error and returns a clean JSON error. Claude reads the error and politely informs the user the system is undergoing maintenance.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
