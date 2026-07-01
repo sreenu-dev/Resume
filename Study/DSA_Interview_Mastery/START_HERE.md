@@ -1,16 +1,16 @@
 # 🚀 START HERE - DSA Interview Mastery
 
-Welcome! You've just unlocked a comprehensive guide to master Data Structures and Algorithms for MAANG, Microsoft, JPMorgan Chase, and Wells Fargo interviews.
+Welcome! You've just unlocked a comprehensive guide to master Data Structures and Algorithms for MAANG, Microsoft, JPMorgan Chase, Optum, and Wells Fargo interviews.
 
 ## ✅ What You Have
 
 A complete study package with:
-- **23 Markdown files** with 60,000+ words
+- **25 Markdown files** with 70,000+ words
 - **6 Data Structure guides** with 60+ problems
 - **5 Algorithm guides** with 50+ problems
-- **6 MAANG+ company guides** (Meta, Google, Amazon, Apple/Netflix, Microsoft, JPMC) with 150+ problems
+- **7 MAANG+ company guides** (Meta, Google, Amazon, Apple/Netflix, Microsoft, JPMC, Optum) with 175+ problems
 - **2 Wells Fargo guides** with banking domain knowledge
-- **4 Master guides** (START_HERE, README, STUDY_PLAN, INDEX)
+- **5 Master guides** (START_HERE, README, STUDY_PLAN, INDEX, MICROSOFT_JPMC_ADDED)
 
 ## 🎯 Quick Navigation
 
@@ -27,7 +27,7 @@ A complete study package with:
 3. Company-specific prep (Week 9-12)
 4. Mock interviews and review
 
-#### Path 2: Microsoft or JPMC Interview (10-12 weeks)
+#### Path 2: Microsoft, JPMC, or Optum Interview (10-12 weeks)
 1. Study Data Structures (Week 1-4)
 2. Study Algorithms (Week 5-8)
 3. Company-specific prep + Domain knowledge (Week 9-10)
@@ -63,13 +63,14 @@ A complete study package with:
 - Greedy Algorithms
 - Backtracking and Recursion
 
-### MAANG+ Companies (6 Guides)
+### MAANG+ Companies (7 Guides)
 - Meta (Facebook)
 - Google
 - Amazon
 - Apple and Netflix
 - Microsoft
 - JPMorgan Chase (JPMC)
+- Optum
 
 ### Wells Fargo (2 Guides)
 - Interview Guide
@@ -235,6 +236,7 @@ A complete study package with:
 - [Apple and Netflix Guide](MAANG_Prep/04_Apple_and_Netflix_Interview_Guide.md)
 - [Microsoft Interview Guide](MAANG_Prep/05_Microsoft_Interview_Guide.md)
 - [JPMC Interview Guide](MAANG_Prep/06_JPMC_Interview_Guide.md)
+- [Optum Interview Guide](MAANG_Prep/07_Optum_Interview_Guide.md)
 
 ### Wells Fargo
 - [Wells Fargo Interview Guide](Wells_Fargo_Prep/01_Wells_Fargo_Interview_Guide.md)
@@ -300,10 +302,10 @@ Start with [README.md](README.md) and follow [STUDY_PLAN.md](STUDY_PLAN.md).
 
 **Created**: 2026-07-01
 **Last Updated**: 2026-07-01
-**Total Content**: 60,000+ words
-**Total Files**: 23
-**Total Problems**: 260+
-**Companies Covered**: 8 (Meta, Google, Amazon, Apple, Netflix, Microsoft, JPMC, Wells Fargo)
-**Estimated Hours**: 90-120 hours
+**Total Content**: 70,000+ words
+**Total Files**: 25
+**Total Problems**: 285+
+**Companies Covered**: 9 (Meta, Google, Amazon, Apple, Netflix, Microsoft, JPMC, Optum, Wells Fargo)
+**Estimated Hours**: 95-120 hours
 
 *Remember: Consistency beats intensity. Study a little every day, and you'll be amazed at what you can achieve!*
