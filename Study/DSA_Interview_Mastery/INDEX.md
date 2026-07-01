@@ -115,7 +115,7 @@
 
 ---
 
-## 🏢 MAANG Interview Preparation (6 Files)
+## 🏢 MAANG Interview Preparation (7 Files)
 
 ### 1. [Meta Interview Guide](MAANG_Prep/01_Meta_Interview_Guide.md)
 - **Company**: Meta (Facebook)
@@ -168,6 +168,14 @@
 - **Preparation Time**: 8-12 weeks
 - **Key Focus**: Trading systems, risk management, fintech, financial domain knowledge
 
+### 7. [Optum Interview Guide](MAANG_Prep/07_Optum_Interview_Guide.md)
+- **Company**: Optum (Healthcare and Technology)
+- **Difficulty**: Medium to Hard
+- **Interview Rounds**: 4-5 (2-3 coding, 1-2 system design, 1 behavioral)
+- **Top 25 Problems**: Listed with categories
+- **Preparation Time**: 8-10 weeks
+- **Key Focus**: Healthcare IT, data analytics, EHR systems, HIPAA compliance, patient data security
+
 ---
 
 ## 🏦 Wells Fargo Interview Preparation (2 Files)
@@ -202,25 +210,25 @@
 ## 📊 Study Materials Summary
 
 ### Total Content
-- **23 Markdown Files**
+- **25 Markdown Files**
 - **6 Data Structure Guides**
 - **5 Algorithm Guides**
-- **6 MAANG Company Guides** (Meta, Google, Amazon, Apple/Netflix, Microsoft, JPMC)
+- **7 MAANG+ Company Guides** (Meta, Google, Amazon, Apple/Netflix, Microsoft, JPMC, Optum)
 - **2 Wells Fargo Guides**
-- **4 Master Guides** (START_HERE, README, STUDY_PLAN, INDEX)
+- **5 Master Guides** (START_HERE, README, STUDY_PLAN, INDEX, MICROSOFT_JPMC_ADDED)
 
 ### Total Study Hours
 - **Data Structures**: 21-26 hours
 - **Algorithms**: 24-30 hours
-- **Company-Specific**: 30-35 hours (6 companies)
+- **Company-Specific**: 35-42 hours (7 companies)
 - **Mock Interviews & Review**: 15-20 hours
-- **Total**: 90-111 hours (8-12 weeks at 10-15 hours/week)
+- **Total**: 95-118 hours (8-12 weeks at 10-15 hours/week)
 
 ### Total Problems Covered
 - **Data Structures**: 60+ problems
 - **Algorithms**: 50+ problems
-- **Company-Specific**: 150+ problems (25 each for Microsoft & JPMC, 20 each for others)
-- **Total**: 260+ problems
+- **Company-Specific**: 175+ problems (25 each for Microsoft, JPMC, Optum; 20 each for others)
+- **Total**: 285+ problems
 
 ---
 
