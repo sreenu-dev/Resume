@@ -70,12 +70,12 @@ bool exists = dict.ContainsKey("key");
 - `LinkedList<T>`: Doubly-linked list
 
 **Performance Characteristics**:
-| Operation | List | Dictionary | HashSet | Queue | Stack |
-|---|---|---|---|---|---|
-| Add | O(1) amortized | O(1) | O(1) | O(1) | O(1) |
-| Remove | O(n) | O(1) | O(1) | O(1) | O(1) |
-| Search | O(n) | O(1) | O(1) | O(n) | O(n) |
-| Access | O(1) | O(1) | - | - | - |
+| Operation | List           | Dictionary | HashSet | Queue | Stack |
+| -----------| ----------------| ------------| ---------| -------| -------|
+| Add       | O(1) amortized | O(1)       | O(1)    | O(1)  | O(1)  |
+| Remove    | O(n)           | O(1)       | O(1)    | O(1)  | O(1)  |
+| Search    | O(n)           | O(1)       | O(1)    | O(n)  | O(n)  |
+| Access    | O(1)           | O(1)       | -       | -     | -     |
 
 #### 3. LINQ Operations
 **Most Common Operations**:
