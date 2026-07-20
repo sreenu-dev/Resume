@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.16)  20 JUL 2026 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.16)  29 JUN 2026 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Resume/Latex/Template/basic.tex
-(e:/Resume/Latex/Template/basic.tex
+**e:/Resume/Latex/Optum/Resume/Sreenivasulu_Ummadi_Optum.tex
+(e:/Resume/Latex/Optum/Resume/Sreenivasulu_Ummadi_Optum.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
 (C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -245,27 +245,27 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 ) (C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
-) (basic.aux)
-\openout1 = `basic.aux'.
+) (Sreenivasulu_Ummadi_Optum.aux)
+\openout1 = `Sreenivasulu_Ummadi_Optum.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
  (C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -280,37 +280,27 @@ LaTeX Font Info:    ... okay on input line 77.
 \makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks27
 )
-Package hyperref Info: Link coloring OFF on input line 77.
+Package hyperref Info: Link coloring OFF on input line 60.
+ (Sreenivasulu_Ummadi_Optum.out) (Sreenivasulu_Ummadi_Optum.out)
 \@outlinefile=\write3
-\openout3 = `basic.out'.
+\openout3 = `Sreenivasulu_Ummadi_Optum.out'.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 81.
+(Font)              using `OT1/cmr/bx/n' instead on input line 64.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 82.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 82.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 82.
+(Font)              <5> on input line 65.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 65.
 (C:\Users\sreen\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-e:/Resume/Latex/Template/basic.tex:93: You can't use `macro parameter character #' in horizontal mode.
-l.93 ...hon, Java, JavaScript, SQL, TypeScript, c#
-                                                  } \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 98.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 110.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 110.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 110.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -319,12 +309,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/sreen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (53.69707pt too wide) in alignment at lines 222--222
+Overfull \hbox (184.06554pt too wide) in alignment at lines 141--141
 [] [] 
  []
 
 
-Overfull \hbox (97.54272pt too wide) in alignment at lines 231--231
+Overfull \hbox (135.54382pt too wide) in alignment at lines 149--149
+[] [] 
+ []
+
+
+Overfull \hbox (70.77728pt too wide) in alignment at lines 157--157
 [] [] 
  []
 
@@ -333,19 +328,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[3]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[4] (basic.aux)
+[2] (Sreenivasulu_Ummadi_Optum.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
@@ -354,27 +337,21 @@ L3 programming layer <2026-05-26>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `basic.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `basic.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E930F86CE30D55EBD58AE640D9175A71;611.
+Package rerunfilecheck Info: File `Sreenivasulu_Ummadi_Optum.out' has not changed.
+(rerunfilecheck)             Checksum: E56EE2824743D71272C2C4BE3CE66692;767.
  ) 
 Here is how much of TeX's memory you used:
- 10916 strings out of 467509
- 174394 string characters out of 5408780
- 632214 words of memory out of 5000000
- 40031 multiletter control sequences out of 15000+600000
- 634646 words of font info for 66 fonts, out of 8000000 for 9000
+ 10910 strings out of 467509
+ 174796 string characters out of 5408780
+ 629289 words of memory out of 5000000
+ 40028 multiletter control sequences out of 15000+600000
+ 632222 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,79p,379b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\sreen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\sreen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on basic.pdf (4 pages, 139204 bytes).
+ 74i,11n,79p,673b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\sreen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/sreen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Sreenivasulu_Ummadi_Optum.pdf (2 pages, 135225 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
