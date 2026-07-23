@@ -1,0 +1,15 @@
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\bin\Debug\net8.0\testprac.exe
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\bin\Debug\net8.0\testprac.deps.json
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\bin\Debug\net8.0\testprac.runtimeconfig.json
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\bin\Debug\net8.0\testprac.dll
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\bin\Debug\net8.0\testprac.pdb
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.GeneratedMSBuildEditorConfig.editorconfig
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.AssemblyInfoInputs.cache
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.AssemblyInfo.cs
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.csproj.CoreCompileInputs.cache
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.sourcelink.json
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.dll
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\refint\testprac.dll
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.pdb
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\testprac.genruntimeconfig.cache
+E:\Resume\Latex\BlackBaud\CodingPractise\testprac\obj\Debug\net8.0\ref\testprac.dll
