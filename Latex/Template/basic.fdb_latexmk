@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784812911.98961 "e:/Resume/Latex/Template/basic.tex" "basic.pdf" "basic" 1784812913.1926 2
+["pdflatex"] 1784813230.6316 "e:/Resume/Latex/Template/basic.tex" "basic.pdf" "basic" 1784813231.78235 0
   "C:/Users/sreen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781621887 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/sreen/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1781675774 11548 64ff3b6e30deef429ad2e49c7ef7b8a9 ""
   "C:/Users/sreen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1781622059 13367096 7ed825d622ef62b329ae3755440db1d8 ""
@@ -75,10 +75,10 @@
   "C:/Users/sreen/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1780057721 7243 98a9e0737a56460d15d6b41be1ecc3b8 ""
   "C:/Users/sreen/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1780057721 7532 f4ccdd43fe3dcc1fb2fb9431b10aa336 ""
   "C:/Users/sreen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "basic.aux" 1784812912 1050 9163a58fbf67498225b6d6b200884dba "pdflatex"
-  "basic.out" 1784812912 762 0e658495f66c7e44dcdcabdcd7eec892 "pdflatex"
-  "basic.tex" 1784812910 24924 b564e818d0a20ad8ae12b5f0ca7f860a ""
-  "e:/Resume/Latex/Template/basic.tex" 1784812910 24924 b564e818d0a20ad8ae12b5f0ca7f860a ""
+  "basic.aux" 1784813231 1050 9163a58fbf67498225b6d6b200884dba "pdflatex"
+  "basic.out" 1784813231 762 0e658495f66c7e44dcdcabdcd7eec892 "pdflatex"
+  "basic.tex" 1784813229 24925 88891d5b7c3aa8e6d5336f4bc2133ec1 ""
+  "e:/Resume/Latex/Template/basic.tex" 1784813229 24925 88891d5b7c3aa8e6d5336f4bc2133ec1 ""
   (generated)
   "basic.aux"
   "basic.log"
